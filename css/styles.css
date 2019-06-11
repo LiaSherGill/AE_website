@@ -3,5 +3,19 @@ body {
 }
 
 
+.colourblock1 {
+  position: absolute;
+  top: 290px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.colourblock2 {
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* body {background-color: #ebc114;
 } */
