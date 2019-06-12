@@ -3,19 +3,22 @@ body {
 }
 
 
-.colourblock1 {
-  position: absolute;
-  top: 290px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  body {
+    background-image: url("https://i.postimg.cc/qMbnhwBG/background-colour.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
-.colourblock2 {
-  position: absolute;
-  top: 600px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  h1 {
+    color: #00089E;
+  }
 
-/* body {background-color: #ebc114;
-} */
+  h4 {
+    color: #00089E;
+  }
+
+  a:hover {
+  color: #00089E;
+}
