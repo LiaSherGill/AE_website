@@ -19,6 +19,10 @@ body {
     color: #00089E;
   }
 
-  a:hover {
-  color: #00089E;
+  a {
+    color: black;
+  }
+
+a:hover {
+color: #00089E;
 }
