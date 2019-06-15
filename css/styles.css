@@ -2,7 +2,6 @@ body {
    font-family: 'Rubik' !important;
 }
 
-
   body {
     background-image: url("https://i.postimg.cc/qMbnhwBG/background-colour.jpg");
     background-repeat: no-repeat;
@@ -10,6 +9,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
   }
+
 
   h1 {
     color: #00089E;
@@ -27,13 +27,8 @@ a:hover {
 color: #00089E;
 }
 
-a:hover {
-    position: relative;
-}
-a:hover:after {
-    content: url(images/blue_button.png); /* no need for qoutes */
-    display: block;
-    position: absolute;
-    left: 123px; /* change this value to one that suits you */
-    top: 56px; /* change this value to one that suits you */
+
+.hideme
+{
+    opacity:0;
 }
