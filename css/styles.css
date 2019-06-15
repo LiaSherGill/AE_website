@@ -26,3 +26,14 @@ body {
 a:hover {
 color: #00089E;
 }
+
+a:hover {
+    position: relative;
+}
+a:hover:after {
+    content: url(images/blue_button.png); /* no need for qoutes */
+    display: block;
+    position: absolute;
+    left: 123px; /* change this value to one that suits you */
+    top: 56px; /* change this value to one that suits you */
+}
