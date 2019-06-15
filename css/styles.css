@@ -1,22 +1,29 @@
 body {
-   font-family: 'Rubik' !important;
+   font-family: 'Poppins', sans-serif;
 }
 
-  body {
-    background-image: url("https://i.postimg.cc/qMbnhwBG/background-colour.jpg");
+
+
+
+body {background-color: #ede6dc;}
+
+body {font-style: #153630;}
+
+  /* body {
+    background-image: url('../images/background_colour.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: cover;
-  }
+  } */
 
 
   h1 {
-    color: #00089E;
+    color: #153830;
   }
 
   h4 {
-    color: #00089E;
+    color: #153830;
   }
 
   a {
@@ -24,9 +31,24 @@ body {
   }
 
 a:hover {
-color: #00089E;
+color: #153630;
 }
 
+a:hover
+{
+    background-image: url('../images/button.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height:2px
+    width:2px;
+    display:block;
+}
+
+
+#container DIV
+{
+    background-color:#9d7e50;
+}
 
 .hideme
 {
