@@ -2,6 +2,9 @@ body {
    font-family: 'Poppins', sans-serif;
 }
 
+body {
+  font-size: 13px;
+}
 
 body {background-color: #ede6dc;}
 
@@ -40,6 +43,14 @@ a:hover
     height:2px
     width:2px;
     display:block;
+}
+
+#nav_bar {
+  font-size: 16px;
+}
+
+#intro {
+  font-size: 14px;
 }
 
 
