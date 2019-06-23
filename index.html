@@ -4,37 +4,37 @@
     <meta charset="utf-8">
     <title>Archive Explorer Tour</title>
 
-
-
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,700&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+<body>
+
+
 
 
 <!--TITLES-->
 <div class="container">
   <div class="row">
     <div class="col">
-
-        <div class="centered">
-        <p class="text-center">Tate Britain</p>
-      <center>
-        <h1 class="display-1">ARCHIVE<br>EXPLORER TOUR</h1>
-
-        <br>
-
-      SATURDAY & SUNDAY | 1PM & 2.30PM
-      </center>
+      <div class="centered">
+        <p id="Intro">
+          <p class="text-center">Tate Britain</p>
+            <div class="Main_Title">
+              <h1 class="display-1" text align="center">
+              <p class="font-weight-bold">
+              ARCHIVE<br>EXPLORER TOUR</h1>
+              </p>
+            </div>
+            <br>
+          <h6 text align="center">SATURDAY & SUNDAY | 1PM & 2.30PM</h6>
       </div>
-
     </div>
   </div>
 </div>
+
 
 
 
@@ -42,238 +42,279 @@
 <div class="container">
   <div class="row">
     <div class="col">
-
-      <div>
+      <div id="intro">
         <br>
-        <p class="text-center">
-          Tate Archives holds over a million items relating to the history of British art, including papers created by Francis Bacon, Kenneth Clark, Barbara Hepworth, Henry Moore, Graham Sutherland and Walter Sickert.
+        <p class= "text-center">
+          We call this tour the Archive Explorer Tour because the stories I'm going to tell you today have all been gleaned
+          from the Tate archive. The archive for the whole of the Tate is here, in the lower levels of Tate Britain, and holds
+          over a million items relating to the history of British art. It includes everything relating to an artists life
+          including letters and sketchbooks as well as more unexpexted items that provide unique insights into the artist
+          such as Francis Bacon's suitcase and model sailing ships belonging to Turner.
+          <br><br>
+          Let's begin the tour!
         </p>
       </div>
-
     </div>
   </div>
 </div>
 
-<!--LETS BEGIN-->
-<div class="container">
-<div class="row">
-<div class="col" style="margin-top:60px">
 
-  <div class>
-    <center>
-        Let's begin the tour!
-    </center>
+<!--LETSBEGIN!-->
+<!-- <div class="container">
+  <div class="row">
+    <div class="col" style="margin-top:60px">
+      <div class>
+        <p class="text-center">
+        <a class="nav-link active" href="#HenryTate">Let's begin the tour!</a></div>
+        </p>
+      </div>
+    </div>
   </div>
+</div> -->
 
-</div>
-</div>
-</div>
 
 <!--NAVBAR-->
 <div class="sticky-top">
-  <div class="d-flex flex-lg-row justify-content-around align-content-sm-center" style="margin-top:60px">
-    <div><a class="nav-link active" href="#">HENRY TATE</a></div>
-    <div><a class="nav-link active" href="#">1840</a></div>
-    <div><a class="nav-link active" href="#">DUVEENS</a></div>
-    <div><a class="nav-link active" href="#">HENRY MOORE</a></div>
-    <div><a class="nav-link active" href="#">ROTUNDA</a></div>
-    <div><a class="nav-link active" href="#">ARCHIVE GALLERY</a></div>
+  <div id="nav_bar">
+  <div class="d-flex flex-lg-row justify-content-around align-content-sm-center" style="margin:60px">
+    <div><a class="nav-link active" href="#Intro">INTRO</a></div>
+    <div><a class="nav-link active" href="#HenryTate">HENRY TATE</a></div>
+    <div><a class="nav-link active" href="#1840Gallery">1840</a></div>
+    <div><a class="nav-link active" href="#HenryMoore">HENRY MOORE</a></div>
+    <div><a class="nav-link active" href="#Duveens">DUVEENS</a></div>
+    <div><a class="nav-link active" href="#Rotunda">ROTUNDA</a></div>
+    <div><a class="nav-link active" href="#ArchiveGallery">ARCHIVE GALLERY</a></div>
   </div>
 </div>
+</div>
+
 
 <!--HENRYTATE-->
-<div class="container">
-  <div class="row">
+<div id="container">
+  <div class="hideme">
+    <div class="container">
+      <div class="row">
+        <p id="HenryTate">
       <div class="col-4" style="margin-top:100px">
-    <img src="images/henry_tate.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+        <img src="images/henry_tate.jpg" class="card-img" alt="Henry Tate" style="max-width: 400px;">
       </div>
-      <div class="col-8" style="margin-top:100px">
-        <h4 class="card-title">Sir Thomas Brock
-          <br>
-          <em>Sir Henry Tate</em>
-          <br>
-          1898
-        </h4>
-          <br>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          <div class="col-8" style="margin-top:100px">
+            <h4 class="card-title">Sir Thomas Brock
+            <br>
+            <em>Sir Henry Tate</em>
+            <br>1898</h4>
+            <br>
+            What may be surprise you, considering we are in a gallery that bears his name, is that Henry Tate came from humble beginnings. He started work at a young age, around 13, as an apprentice in his brothers green grocers. He then set up a chain of grocer shops himself.
+            At this time if you wanted some sugar you would go into a grocers, who would hack away at a large sugar loaf. You would then take it home, and hack away at it some more. While Henry is in Germany he comes across this new invention: the sugar cube. He buys a patent for it in the UK, and introduces the sugar cube to this country. You can imagine, what a revelation this would have been, customers could now guarantee that they would be buying pure sugar. And it made Henry's fortune.
+            <br><br>
+            What did he decide to do with all this money? He used it for charity and buying art. He filled his home with full of contemporary British art and once a month on a Sunday the public were invited into the house to see his art.
+            Henry then decided he wanted even more people to see his art so he took his collection to the National Gallery. He asked for one stipulation: that above the door to the gallery it would say "Henry Tate Collection". And what did the National Gallery say? They said no. What was their reasoning? The official response was that the gallery didn't have enough space. However, there are a couple of other reasons why Henry may have been rejected. One, he was a self made man, an entrepreneur. At this time the majority of the art establishment (people who ran the National Gallery) were aristocracy, landed gentry, lords and ladies, from families with lots of wealth, unlike Henry. Another reason, is the type of art he collected. Henry collected contemporary British Art, including the pre-raphaelites, which was not held in high regard at the time. And we're going to find out more on our next stop, the 1840 gallery.
+          </div>
+        </p>
       </div>
+    </div>
   </div>
 </div>
 
+
 <!--1840-->
-<div class="container">
-  <div class="row">
-    <div class="col-8" style="margin-top:100px">
-      <h4 class="card-title">1840 Gallery</h4>
-        <br>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-    </div>
-    <div class="col-4" style="margin-top:100px">
-      <img src="images/1840.png" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+<div id="container">
+  <div class="hideme">
+    <div class="container">
+      <div class="row">
+          <p id="1840Gallery">
+          <div class="col-5" style="margin-top:100px">
+            <h4 class="card-title">1840 Gallery</h4>
+            <br>
+            Here, we can idea of what it would have been like for visitors who entered the gallery when it opened in 1897. The pantings in here are arranged on the wall in a way that is different to anywhere else in the gallery, and the same way they would have been seen in 1897. This way of arranging the paintings is called a Salon hang, for any of you who have been to the Royal Academy Summer Exhibition you’ll recognise it as it’s still the way they hang the paintings there. It's very different to how we are used to seeing gallery spaces today: white walls, art spaced out and at eye line so we can see it fully.
+            <br><br>
+            The term Salon hang comes from the French, it was the way paintings were hung in the French art academies, and at this time when people thought of really good art they thought of the French. French and Italian painters were fashionable, not British painters such as those Henry collected and in particular not the pre-raphaelites. An important point to remember about Henry is that he wasn’t an expert in art, he purely collected what he loved not what was fashionable. Paintings such as Millais Ophelia, now the most famous painting in the gallery, was derided when first exhibited.
+          </div>
+          <div class="col-7" style="margin-top:100px">
+            <img src="images/1840.png" class="card-img" alt="Shelterers in the Tube" style="max-width: 600px;">
+          </div>
+        </p>
+      </div>
     </div>
   </div>
 </div>
 
 <!--HOPE-->
-<div class="container">
-  <div class="row">
-      <div class="col-4" style="margin-top:100px">
-    <img src="images/hope.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+<div id="container">
+  <div class="hideme">
+    <div class="container">
+      <div class="row">
+          <p id="Hope">
+          <div class="col-4" style="margin-top:100px">
+            <img src="images/hope.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+          </div>
+          <div class="col-8" style="margin-top:100px">
+            <h4 class="card-title">George Frederic Watts
+            <br>
+            <em>Hope</em>
+            <br> 1886 </h4>
+            <br>
+            Next I want to draw your attention to this painting in the corner, which is mostly overlooked but features in a very dramatic time in Tate history. In the late 1920s the Thames burst it banks. Now if you came in through the main entrance you would have seen how close we are to the river. When the banks burst the river water came rushing into the building and flooded the lower levels of the gallery. At the time these floors held the collection, all the paintings that were not on display. So, in the early hours of the morning there was an emergency rescue effort to save the works of art. Volunteers from the National Gallery and the V&A joined Tate staff in trying to save all they could. Even the director of the gallery, Charles Aitken, came to help out. And as he was wading through the sludge he stepped on something, so he plunged his hand into the water and pulled out this painting, Hope. Now, this would be a wonderful story if it wasn’t for the fact that this painting was Aitken’s least favourite painting in the whole of the collection.
+            <br><br>
+            Unlike Aitken, this painting is said to be favourite of Barack Obama and Nelson Mandela. Mandela had a reproduction of the painting with him in his prison cell in Robben Island. When I heard this I thought, it’s an interesting choice, because I looked at it and thought it’s quite a depressing painting isn’t it? But then I started looking a bit closer to try and see what he was seeing in it. The painting depicts the allegorical figure of Hope, she’s on this globe, playing the last string on her lyre and she’s blindfolded, with this gloomy, stormy sky around her. If you look at the very top of the canvas, there’s a tiny yellow spot of paint. A tiny star in this stormy sky. So, even though things seem rock bottom, in the distance there is this tiny star that signals better things to come. The hope that things will get better.
+            <br><br>
+            Now, I’ll leave it up to you to decide who you agree with, Charles Aitken or Nelson Mandela. But what this is a great example of is the way in which paintings can evoke different feelings in us.
+ </div>
+        </p>
       </div>
-      <div class="col-8" style="margin-top:100px">
-        <h4 class="card-title">George Frederic Watts
-          <br>
-          <em>Hope</em>
-          <br>
-          1886
-        </h4>
-          <br>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-      </div>
-  </div>
-</div>
-
-<!--DUVEENS-->
-<div class="container">
-  <div class="row">
-    <div class="col-8" style="margin-top:100px">
-      <h4 class="card-title">Duveen Galleries</h4>
-        <br>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
     </div>
-    <div class="col-4" style="margin-top:100px">
-      <img src="images/duveens.png" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
-    </div>
-  </div>
-</div>
-
-<!--MIKENELSON-->
-<div class="container">
-  <div class="row">
-      <div class="col-4" style="margin-top:100px">
-    <img src="images/mike_nelson.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
-      </div>
-      <div class="col-8" style="margin-top:100px">
-        <h4 class="card-title">Mike Nelson
-          <br>
-          <em>The Asset Strippers</em>
-          <br>
-          2019
-        </h4>
-          <br>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-      </div>
   </div>
 </div>
 
 <!--HENRYMOOREWAR-->
-<div class="container">
-  <div class="row">
-    <div class="col-8" style="margin-top:100px">
-      <h4 class="card-title">Henry Moore
-        <br>
-        <em>Shelterers in the Tube</em>
-        <br>
-        1941
-      </h4>
-        <br>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-    </div>
-    <div class="col-4" style="margin-top:100px">
-      <img src="images/henry_moore_war.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+<div id="container">
+  <div class="hideme">
+    <div class="container">
+      <div class="row">
+        <p id="HenryMoore">
+          <div class="col-5" style="margin-top:100px">
+            <h4 class="card-title">Henry Moore
+            <br>
+            <em>Shelterers in the Tube</em>
+            <br> 1941
+            </h4>
+            <br>
+            These are some of my favourite works in the whole collection. These sketches were made by Henry Moore during the second world war, when Moore was appointed a war artist. Moore made these sketches during air raids when the public piled into underground stations to keep safe from the bombings overhead. What I like about these is that they give us an insight into what that time would have been like for everyday people in London. Because when it came to the gallery, it was very well prepared. The director was notified even before the official outbreak of war, that war was imminent. Artworks were taken into safe keeping, first in underground tunnels such as Green Park and Aldwych and then to grand homes in the countryside. Being as close as we are to Westminster you can imagine what a target the gallery was, and the building was hit on three occasions including during the Blitz. Marks from shrapnel can still be seen on the wall by the Manto entrance.
+            <br><br>
+            These sketches give us an idea of what experiencing that bombing would have been like. The figures look desperate and desolate. There’s something ghost like in their hollow eyes, the sense of clinging to life is keenly felt. These images sum up the mood of the country at that time.
+          </div>
+          <div class="col-7" style="margin-top:100px">
+            <img src="images/henrymoorewar.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 600px;">
+          </div>
+        </p>
+      </div>
     </div>
   </div>
 </div>
 
 <!--HENRYMOOREPOSTWAR-->
-<div class="container">
-  <div class="row">
-      <div class="col-4" style="margin-top:100px">
-    <img src="images/family_group.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
-      </div>
-      <div class="col-8" style="margin-top:100px">
-        <h4 class="card-title">Henry Moore
+<div id="container">
+  <div class="hideme">
+    <div class="container">
+      <div class="row">
+        <div class="col-4" style="margin-top:100px">
+          <img src="images/family_group.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+        </div>
+        <div class="col-8" style="margin-top:100px">
+          <h4 class="card-title">Henry Moore
           <br>
           <em>Family Group</em>
+          <br> 1949, cast 1950–1
+          </h4>
           <br>
-          1949, cast 1950–1
-        </h4>
-          <br>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          By looking at Moore’s most famous works, sculpture, in comparison to the sketches we can see how Britain transitioned from the war to the post war period. In both, the forms are the same. Moore’s distinctive fluid lines and small dots for eyes, but the tone is very different. These figures are not desperate anymore, they are a strong, stable unit. The change in Moore’s work reflects the change in British society and a move towards building a communitarian society, seen in the establishment of the welfare state and the NHS.
+        </div>
       </div>
+    </div>
   </div>
 </div>
+
+<!--MIKENELSON-->
+<div id="container">
+  <div class="hideme">
+    <div class="container">
+      <div class="row">
+        <p id="Duveens">
+          <div class="col-7" style="margin-top:100px">
+            <h4 class="card-title">Mike Nelson
+            <br>
+            <em>The Asset Strippers</em>
+            <br> 2019
+            </h4>
+            <br>
+            This gallery was opened 1937 and were the first purpose built galleries for sculpture in the country. The sheer size of space meant sculpture could be seen at 360 degrees and the floor was reinforced to take the weight of the works.
+            <br><br>
+            The work currently in here references the history of gallery. Nelson has filled the space with remnants of the past, the post war era of his parents and his childhood in the UK. His parents worked in textile factories in the East Midlands. From it being their livelihood they then saw the factories and industry decline through the 1970s and 1980s. What had once been, the vision of post war Britain as a place of the welfare state and social equality seemed long gone, relics of the past like the machinery. In this context we see Moore’s sculptures as a hopeful and idealistic image for the future but here lies the reality. Nelson is returning the gallery to what it once was: a hall for monumental sculpture, where the audience wonders at the sheer physicality of the sculptural objects. The machinery which was once useful but now sits here as artefact.
+            <br><br>
+            Nelson is picking through the remnants of his own history as well as this country’s. The past, present and the future come together. When the exhibition first opened a group of school children came in, looked at the machinery and thought they were robots. My Dad worked in factories and foundries in the Midlands when he first came to this country, because there was need for labour. But these objects are completely foreign to me, and my siblings, and our experience of working conditions could not be further away from where he started. For me, I think it’s a brilliant piece of art because it forces you to reckon with the past, present and the future.
+          </div>
+          <div class="col-5" style="margin-top:100px">
+            <img src="images/mike_nelson.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!--ROTUNDA-->
-<div class="container">
-  <div class="row">
-    <div class="col-8" style="margin-top:100px">
-      <h4 class="card-title">Rotunda</h4>
-        <br>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-    </div>
-    <div class="col-4" style="margin-top:100px">
-      <img src="images/rotunda.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
-    </div>
-  </div>
-</div>
-
-<!--PLASTERERSLETTER-->
-<div class="container">
-  <div class="row">
-      <div class="col-4" style="margin-top:100px">
-    <img src="images/plasterers_letter.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+<div id="container">
+  <div class="hideme">
+    <div class="container">
+      <div class="row">
+        <p id="Rotunda">
+          <div class="col-4" style="margin-top:100px">
+              <img src="images/rotunda.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+          </div>
+          <div class="col-8" style="margin-top:100px">
+            <h4 class="card-title">Rotunda</h4>
+            <br>
+            We are now standing in the original building that opened in 1897. The original gallery was 4 rooms, two either side of the rotunda here and then doubled again.
+            <br><br>
+            This space is the location of one of my favourite stories from the archive. In the 1980s when surveying work was taking place in preparation for the Turner galleries, they were chipping away at some of the plaster as they were doing so they came across a piece of paper folder in the wall. When they unfurled it, this is what they read: [reads Plasterer’s Letter].
+            <br><br>
+            It turns out the Plasterers Association was indeed still flourishing and the Evening Standard took them out for a drink. What I love about this letter is that it gives us an insight into everyday working people at that time, and just like Henry, these working men wanted to leave a legacy, wanted to be remembered. They didn’t have the wealth and status to put their name to a building so instead they wrote this letter and hoped for the best.
+          </div>
+        </p>
       </div>
-      <div class="col-8" style="margin-top:100px">
-        <h4 class="card-title">Plasterer’s Letter</h4>
-          <br>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-      </div>
+    </div>
   </div>
 </div>
 
 <!--ARCHIVEGALLERY-->
-<div class="container">
-  <div class="row">
-    <div class="col-8" style="margin-top:100px">
-      <h4 class="card-title">Archive Gallery</h4>
-        <br>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-    </div>
-    <div class="col-4" style="margin-top:100px">
-      <img src="images/archive_gallery.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+<div id="container">
+  <div class="hideme">
+    <div class="container">
+      <div class="row">
+        <p id="ArchiveGallery">
+          <div class="col-8" style="margin-top:100px">
+            <h4 class="card-title">Archive Gallery</h4>
+            <br>
+            In here you can see materials from the archive reproduced, and throughout you will be able to spot the stories I spoke about in today’s tour.
+            <br><br>
+            Before we finish up, I want to talk to you about the history of this site. Before the gallery this was the site of Milbank Penitentiary, Europes largest prison. It was the brainchild of social reformer Jeremy Bentham. Bentham had an idea of how prisons could be reimagined, and he began with the architecture of the prison building. If you look at the tiles on the floor and the bench you are sitting on, this is the map of the prison, this type of layout is called a panopticon which comes from the Greek word meaning all seeing eye. For any Orwell fans, this is where big brother comes from. The idea was that in this central space, would be a watchtower where guards would watch the prisoners, who are in these petal shaped areas over here. With the prisoners constantly feeling as though they are being watched the idea was that they would adjust their behaviour themselves and then could be released back into society as moral citizens. However, Bentham’s hope did not become a reality and eventually the prison was deemed a failure. Disease was rife, there were outbreaks of cholera from prisoners drinking the river water and writers at the time such as Charles Dickens visited the prison and wrote about how awful the conditions were.
+            <br><br>
+            Before the prison was eventually demolished it was used as holding bay for prisoners sent to Australia. The prisoners were taken from the prison through an underground tunnel straight into the ships. It’s thought that the Australian word for English people “Pom”, comes from Prisoners Of Millbank.
+            You can see remnants of the prison in the surrounding area today, the bollard were the ropes from the ships were tied still stands outside and a couple of streets away you can see the prison moat.
+            <br><br>
+            They may seem like to complete opposites, a prison and then an art gallery. But I think there’s more in common there than what we might first think. Both were very typically Victorian projects in the betterment of society. Bentham wanted to reform prisoners and release them as law abiding citizens. Henry opened this gallery for free so that the public could enjoy his artwork and learn from it, educate themselves from it.
+          </div>
+          <div class="col-4" style="margin-top:100px">
+            <img src="images/archive_gallery.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
+          </div>
+        </p>
+      </div>
     </div>
   </div>
 </div>
 
-<!--PRISON-->
-<div class="container">
-  <div class="row">
-      <div class="col-4" style="margin-top:100px">
-    <img src="images/prison.jpg" class="card-img" alt="Shelterers in the Tube" style="max-width: 400px;">
-      </div>
-      <div class="col-8" style="margin-top:100px">
-        <h4 class="card-title">Plasterer’s Letter</h4>
-          <br>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-      </div>
-  </div>
-</div>
 
 <!--BACKTOTHEBEGINNING-->
 <div class="container">
-<div class="row">
-<div class="col" style="margin-top:60px">
-
-  <div class>
-    <center>
-        Back to the beginning
-    </center>
+  <div class="row">
+    <div class="col" style="margin-top:60px">
+      <div class>
+        <h6 class="text-center">
+        <a class="nav-link active" href="#top">Back to the beginning</a>
+      </h6>
+      </div>
+    </div>
   </div>
+</div>
 
-</div>
-</div>
-</div>
+<!-- JAVASCRIPT -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- My js -->
+<script src="./js/script.js"></script>
 
   </body>
 </html>

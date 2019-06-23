@@ -1,3 +1,65 @@
 body {
-   font-family: 'Rubik' !important;
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 13px;
+}
+
+body {background-color: #ede6dc;}
+
+body {font-style: #153630;}
+
+  /* body {
+    background-image: url('../images/background_colour.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+  } */
+
+
+  h1 {
+    color: #153830;
+  }
+
+  h4 {
+    color: #153830;
+  }
+
+  a {
+    color: black;
+  }
+
+a:hover {
+color: #153630;
+}
+
+a:hover
+{
+    background-image: url('../images/button.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height:2px
+    width:2px;
+    display:block;
+}
+
+#nav_bar {
+  font-size: 16px;
+}
+
+#intro {
+  font-size: 14px;
+}
+
+
+#container DIV
+{
+    background-color:#9d7e50;
+}
+
+.hideme
+{
+    opacity:0;
 }
